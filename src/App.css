@@ -616,3 +616,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+/** Tech Icon Overlay **/
+.tech-icon-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(48, 51, 64, 0); /* Initially transparent */
+  opacity: 0; /* Hidden initially */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tech-icon-overlay:hover {
+  opacity: 0.8; /* Show overlay on hover */
+  background-color: rgba(48, 51, 64, 0.8); /* Dark background on hover */
+}
+
+.tech-icon-text {
+  display: none; /* Hide text initially */
+  font-size: 1.25rem; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: 15%; /* Adjust as needed */
+}
+
+.tech-icon-overlay:hover .tech-icon-text {
+  display: block; /* Show text on hover */
+}
