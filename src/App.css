@@ -1,3 +1,4 @@
+
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
@@ -642,4 +643,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .tech-icon-overlay:hover .tech-icon-text {
   display: block; /* Show text on hover */
+}
+.small-tech-icon {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  object-fit: contain; /* This ensures the image scales correctly within the set dimensions */
+  display: block;  /* Makes sure the image is treated as a block-level element */
+  margin: 0 auto;  /* Adds automatic margin to left and right, centering it horizontally */
+
 }
