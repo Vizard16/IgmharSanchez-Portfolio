@@ -1,6 +1,5 @@
 
 import "../../App.css";
-
 export default function TechIcon(props) {
     return (
       <a href={props.link} target="_blank" rel="noopener noreferrer" className="d-block text-decoration-none">
@@ -12,7 +11,7 @@ export default function TechIcon(props) {
           </div>
           <img
             alt={props.name}
-            className={`img-fluid ${props.padding}`}
+            className={`small-tech-icon ${props.padding}`} // Use the custom class instead of img-fluid
             src={props.src}
           />
         </div>
