@@ -1,0 +1,10 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background rectangle -->
+    <rect width="256" height="256" rx="60" fill="#333" />
+    
+    <!-- 'TIA' Text -->
+    <text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" fill="#FFF" font-size="64" font-family="Arial" font-weight="bold">TIA</text>
+    
+    <!-- 'V17' Text -->
+    <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" fill="#4A90E2" font-size="64" font-family="Arial" font-weight="bold">V17</text>
+</svg>
