@@ -7,6 +7,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { About } from "./components/About";
 import Resume from "./components/Resume";
 
 
@@ -16,6 +17,7 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
+      <About />
       <Projects />
       <Contact />
 
