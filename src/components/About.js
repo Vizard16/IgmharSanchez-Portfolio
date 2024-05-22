@@ -19,6 +19,8 @@ export const About = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>About Me</h2>
+
+                
                 
               </div>}
             </TrackVisibility>
@@ -28,7 +30,7 @@ export const About = () => {
       
       {/* Background blur effect */}
       
-      {/* Apply the terminal window */}
+      {/* Apply the terminal window */}       
       <div className="fakeMenu" style={{ marginTop: '20px' }}>
         <div className="fakeButtons fakeClose"></div>
         <div className="fakeButtons fakeMinimize"></div>
@@ -37,9 +39,9 @@ export const About = () => {
     
 
       <div className="fakeScreen" >
-        <p className="line1">$ sudo chmod About Igmhar<span className="cursor1">_</span></p>
-        <p className="line2"> I'm an enthusiast about programming, robotics, automation. <span className="cursor2">_</span></p>
-        <p className="line3">I'm a proficient and passionate engineering student with experience in team-based software development and robotics, always eager to learn and self-driven towards solving world problems. <span className="cursor3">_</span></p>
+        <p className="line1">$ sudo apt install: Who am I?<span className="cursor1">_</span></p>
+        <p className="line2"> I'm an enthusiast about programming, robotics and automation. <span className="cursor2">_</span></p>
+        <p className="line3"> I'm a proficient and passionate engineering student with experience in team-based software development and robotics, always eager to learn and self-driven towards solving world problems. <span className="cursor3">_</span></p>
         <p className="line4"><span className="cursor4">_</span></p>
       </div>
 
