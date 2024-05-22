@@ -1,0 +1,90 @@
+.modal-content {
+    background-color: #45495C; /*#180830;*/
+    color: #ffffff;
+}
+
+.modal-header.bg-dark-1, .modal-body.bg-dark-1, .modal-footer.bg-dark-1 {
+    background-color: #ffffff !important;
+    color: #ffffff !important;
+  }
+  
+  .modal-title {
+    font-family: 'Centra', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .modal-body h4 {
+    font-family: 'Centra', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    color:#ffffff;
+  }
+  
+  .modal-body ul {
+    padding-left: 20px;
+  }
+  
+  .modal-body ul li {
+    list-style-type: none;
+    padding: 5px 0;
+  }
+  
+  .modal-body ul li strong {
+    font-weight: 700;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .slick-slide img {
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .project-details-modal .container {
+    padding: 20px;
+  }
+  
+  .project-details-modal .row {
+    margin-bottom: 20px;
+  }
+  
+  .project-details-modal .btn-close {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(89deg) brightness(102%) contrast(101%);
+  }
+  
+  .project-details-modal .btn-close.btn-close-white {
+    filter: none;
+  }
+  /* Slick dots customization */
+.slick-dots li button:before {
+    color: #F9F8FF!important; /* Change this to your desired color */
+    opacity: 0.75 !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #8087F1 !important; /* Change this to your desired active dot color */
+    opacity: 1 !important;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px !important;
+  }
+  
+  .slick-dots {
+    bottom: -30px !important; /* Adjust position if necessary */
+  }
+  
+  .slick-dots li button {
+    width: 12px !important; /* Adjust size if necessary */
+    height: 12px !important; /* Adjust size if necessary */
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px !important; /* Adjust size if necessary */
+  }
