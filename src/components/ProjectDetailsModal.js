@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Modal, Button } from "react-bootstrap";
 import Slider from "react-slick";
 import "./ProjectDetailsModal.css"; // Import your CSS file
+import mainImage from "../../src/assets/img/projects/CIBERFISICOSROS.png";
 
 const ProjectDetailsModal = ({ darkTheme, projectDetails, show, handleClose }) => {
   const sliderRef = useRef();
@@ -43,7 +44,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails, show, handleClose }) =
               <Slider {...settings} ref={sliderRef}>
                 {projectDetails?.thumbImage && (
                   <div className="item">
-                    <img className="img-fluid mx-auto" alt="" src={projectDetails?.thumbImage} />
+                    <img className="img-fluid mx-auto" alt="" src={mainImage} />
                   </div>
                 )}
                 {projectDetails?.sliderImages?.length > 0 &&
