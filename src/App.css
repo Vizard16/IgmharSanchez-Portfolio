@@ -379,7 +379,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 150px 0 100px 0;
   position: relative;
   /* background-color: black; */
-  background-color: rgb(20, 16, 21);
+  background-image: radial-gradient(circle, #051937, #12162d, #171324, #17111c, #141015);
   
   
 }
@@ -547,7 +547,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-image: radial-gradient(circle, #051937, #12162d, #171324, #17111c, #141015);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -731,12 +731,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 }
 
-/* Mobile and tablet adjustments */
+/* Media queries for responsive design */
+@media (max-width: 1200px) {
+  .small-tech-icon {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .small-tech-icon {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .small-tech-icon {
-    width: 50px; /* smaller width for mobile */
-    height: auto; /* maintain aspect ratio */
+    width: 100%;
   }
+}
+
+@media (max-width: 576px) {
+  .small-tech-icon {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .small-tech-icon {
+    width: 40px;
+  }
+
 }
 
 /* Overlay and text adjustments for responsiveness */
