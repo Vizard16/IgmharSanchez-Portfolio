@@ -290,5 +290,15 @@
   }
 }
 
+@media (max-width: 450px) {
+
+    .fakeScreen p {
+      left: 50%;
+
+    }
+  
+}
+
 /* Adjust other keyframes as necessary */
 }
+
